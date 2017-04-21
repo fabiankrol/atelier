@@ -5,12 +5,117 @@
 	<html lang="pl-PL">
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
-atelierrzeczyladnych.pl <br>
-<a class="navbar-brand" href="index.html">blog</a> <br>
-<a class="navbar-brand" href="index.html">sklep</a>
+
+	<!-- !!!!!!!!!!!!!!!!!!!NAVBAR!!!!!!!!!!!!!!!! -->
+	<nav class="navbar navbar-transparent navbar-fixed-top menu" id="my-nav">
+		<div class="container">
+			<div class="container-fluid">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html" >Strona Główna <span class="sr-only">(current)</span></a></li>
+						<li><a class="anchor" href="#scroll-about">O firmie</a></li>
+						<li><a class="anchor" href="#scroll-offer">Oferta</a></li>
+						<li><a href="gallery.html">Galeria</a></li>
+						<li><a href="http://sklep.atelierrzeczyladnych.pl" target="_blank">Sklep</a></li>
+						<li><a href="http://blog.atelierrzeczyladnych.pl" target="_blank">Blog</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="https://www.facebook.com/atelierrzeczyladnych/" target="_blank"><img src="img/facebook.png" height="20px" alt="logo Facebooka"></a></li>
+						<li><a href="https://www.instagram.com/atelier_rzeczy_ladnych/" target="_blank"><img src="img/instagram.png" height="20px" alt="logo Instagrama"></a></li>
+						<li><a class="anchor" href="#scroll-contact">Kontakt</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</div>
+	</nav>
+	<!-- !!!!!!!!!!!!!!!!!!!!!!!!END NAVBAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+<!-- LOGO -->
+    <header class="topPage">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="scroll-content">
+                        <img class="img-responsive" src="img/logo.png" alt="" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- OFERTA -->
+		<div id="scroll-offer" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 products">
+						<div ><img class="img-responsive" src="img/carousel/offer_1.jpg" alt=""></div>
+						<div>
+							<h3>Projektowanie</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum dui ac ullamcorper gravida. Nulla sollicitudin nunc at suscipit rutrum. Aliquam tempus urna arcu, sit amet cursus libero hendrerit sed. Ut vehicula velit eget ligula maximus, vitae congue est ultricies. Proin ut augue felis. Sed non elit nec enim feugiat fermentum. Nulla ac ante luctus, maximus felis vitae, commodo augue. Sed eleifend pulvinar augue vitae placerat. Phasellus iaculis tempor turpis eget ornare. Suspendisse potenti. Nunc at dictum lorem, et interdum dui. Aliquam non elit vel massa luctus vulputate. Pellentesque varius nulla ac cursus fermentum.</p>
+						</div>
+					</div>
+					<div class="col-md-4 products">
+						<div ><img class="img-responsive" src="img/carousel/offer_2.jpg" alt=""></div>
+						<div>
+							<h3>Home staging</h3>
+							<p>Etiam scelerisque rutrum sollicitudin. Aenean commodo lectus orci, ultrices luctus ante consectetur a. Vivamus rhoncus nibh vel lectus mollis, non volutpat nisi tincidunt. Nulla vitae aliquet lacus. Nullam luctus augue quis mauris euismod vulputate. Nam efficitur velit augue, quis aliquet magna tempus aliquam. Suspendisse porta diam in velit mattis venenatis. Phasellus sodales accumsan urna at tempus. Etiam volutpat, dolor vel egestas finibus, urna nunc dapibus ex, in vulputate odio est nec massa. Integer molestie erat et neque posuere, in vehicula mi congue. Sed non lectus eu mauris venenatis tempor placerat vel tortor.</p>
+
+						</div>
+					</div>
+					<div class="col-md-4 products">
+						<div ><img class="img-responsive" src="img/carousel/offer_3.jpg" alt=""></div>
+						<div>
+							<h3>Renowacja mebla</h3>
+							<p>Nulla tempor mollis accumsan. Vestibulum bibendum mattis nisl sit amet pellentesque. Integer varius, tellus sed maximus laoreet, augue orci fermentum mi, sed auctor neque nisl et felis. In eu dolor in velit elementum sollicitudin vitae non diam. Suspendisse et purus et diam cursus condimentum non ac leo. Etiam facilisis magna dolor, id auctor nulla molestie ut. Maecenas blandit ante eget lobortis ultricies. Praesent malesuada commodo fringilla.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!-- KONTAKT -->
+		<div id="scroll-contact" class="bggray" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 "></div>
+					<div class="col-md-3 ">
+						<div class="photo"><img class="img-circle img-rounded" src="img/me.jpg" alt="Zdjęcie autorki kROOL design."></div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="logo1"><p> więcej znajdziesz tu: </p></div>
+						<div class="social">
+							<a href="https://web.facebook.com/atelierrzeczyladnych/" target="_blank"><img src="img/facebook.png" height="40px" alt="logo Facebooka"></a>
+							<a href="https://www.instagram.com/atelier_rzeczy_ladnych/" target="_blank""><img src="img/instagram.png"  height="40px" alt="logo Instagrama"></a>
+						</div>
+						<br>
+						<p>a napisać możesz do mnie tu <br> <h2>joanna@krol.io</h2> </p>
+					</div>
+					<div class="col-md-3 "></div>
+				</div>
+			</div>
+		</div>
 
 </body>
 </html>
